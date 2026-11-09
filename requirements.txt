@@ -1,0 +1,10 @@
+# Python 3.8+; a CUDA-capable GPU is required (scripts call .to("cuda") unconditionally).
+# Install the torch build matching your CUDA version first, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+h5py>=3.8
+tqdm>=4.65
+matplotlib>=3.7
